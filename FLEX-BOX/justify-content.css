@@ -1,0 +1,35 @@
+.start {
+  display: flex;
+  justify-content: flex-start;
+  border: solid 2px black;
+  width: 350px;
+}
+.end {
+  display: flex;
+  justify-content: flex-end;
+  border: solid 2px black;
+  width: 350px;
+}
+.space-around {
+  display: flex;
+  justify-content: space-around;
+  border: solid 2px black;
+}
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  border: solid 2px black;
+}
+.direction {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  border: solid 2px black;
+}
+
+.item {
+  border: solid 2px red;
+  background-color: #6dd174;
+  margin: 5px;
+  padding: 5px;
+}

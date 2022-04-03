@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=7,8,edge" />
+  
+  <link rel="stylesheet" href="flex-flow.css" type="text/css" media="all" />
+  
+  <title>Flex Flow</title>
+</head>
+<body>
+  <h3>Usamos { row nowrap }:</h3>
+  <p>Se tirarmos o no, provavelmente não teremos alteraçoes:</p>
+  <div class="row-nowrap">
+    <div class="item">839 1</div>
+    <div class="item">736 2</div>
+    <div class="item">862 3</div>
+    <div class="item">826 4</div>
+  </div>
+  <p>Não teremos alteraçoes quando se editar o width.</p>
+  
+  <h3>Usamos o { row wrap-reverse }:</h3>
+  <div class="row-wrap-reverse">
+    <div class="item">839 1</div>
+    <div class="item">736 2</div>
+    <div class="item">862 3</div>
+    <div class="item">826 4</div>
+  </div>
+  
+  <h3>Usamos { column wrap }:</h3>
+  <div class="column-wrap">
+    <div class="item">839 1</div>
+    <div class="item">736 2</div>
+    <div class="item">862 3</div>
+    <div class="item">826 4</div>
+  </div>
+  
+  <h3>Usamos { column wrap-reverse }:</h3>
+  <div class="column-wrap-reverse">
+    <div class="item">839 1</div>
+    <div class="item">736 2</div>
+    <div class="item">862 3</div>
+    <div class="item">826 4</div>
+  </div>
+  
+  <h3>Apenas teste:</h3>
+  <p>As alteraçoes são validas em { "row-column-reverse" e wrap-reverse }:</p>
+  <div class="row-wrap-flow-reverse">
+    <div class="item">839 1</div>
+    <div class="item">736 2</div>
+    <div class="item">862 3</div>
+    <div class="item">826 4</div>
+  </div>
+  
+</body>
+</html>

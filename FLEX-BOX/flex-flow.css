@@ -1,0 +1,37 @@
+.row-nowrap {
+    display: flex;
+    border: solid 2px black;
+    width: 350px;
+    flex-flow: row nowrap;
+}
+.row-wrap-reverse {
+    display: flex;
+    border: solid 2px black;
+    width: 200px;
+    flex-flow: row wrap-reverse;
+}
+.column-wrap {
+    display: flex;
+    border: solid 2px black;
+    width: 350px;
+    flex-flow: column wrap;
+}
+.column-wrap-reverse {
+    display: flex;
+    border: solid 2px black;
+    width: 350px;
+    flex-flow: column wrap-reverse;
+}
+.row-wrap-flow-reverse {
+    display: flex;
+    border: solid 2px black;
+    width: 350px;
+    flex-flow: row-reverse wrap-reverse;
+}
+.item {
+    border: solid 2px red;
+    padding: 5px;
+    margin: 5px;
+    background-color: #21f2ac;
+    width: 40px;
+}

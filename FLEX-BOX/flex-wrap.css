@@ -1,0 +1,18 @@
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 2px black;
+    width: 200px;
+}
+.reverse {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    border: solid 2px black;
+    width: 200px;
+}
+.item {
+    border: solid 2px red;
+    background-color: #f0b6ef;
+    padding: 5px;
+    margin: 5px;
+}
